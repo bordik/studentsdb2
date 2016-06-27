@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<title>Форма редагування Студента</title>
+		<meta name="description"
+			value="Форма редагування студента навчального закладу"/>
+
+		<!-- Include Styles -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+	<body>
+		<div class="container">
+  			<h2>Форма редагування Студетна</h2>
+  			<form class="form-horizontal" role="form" action="index.html">
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">Ім’я*</label>
+      				<div class="col-sm-2">
+        				<input type="text" class="form-control" placeholder="Олександр">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">По-батькові</label>
+      				<div class="col-sm-2">          
+        				<input type="text" class="form-control" placeholder="Олександрович">
+      				</div>
+    			</div>
+				<div class="form-group">
+      				<label class="control-label col-sm-2">Прізвище*</label>
+      				<div class="col-sm-2">          
+        				<input type="text" class="form-control" placeholder="Олійник">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">№ Білету*</label>
+      				<div class="col-sm-2">          
+        				<input type="text" class="form-control" placeholder="1234">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">Дата народження</label>
+      				<div class="col-sm-2">          
+        				<input type="date" class="form-control" placeholder="1989-05-22">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">Фото</label>
+      				<div class="col-sm-6">
+      					<p>Наразі:<a href="/home/alex/Desktop/static/img">/home/alex/Desktop/static/img</a>
+      						<label><input type="checkbox"></label>
+      					</p>
+      					<p>Очистити</p>
+        				<p> 
+        					Змінити:
+        					<input type="file" placeholder="Choose file" style="display: inline-block">
+        				</p>
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">Група</label>
+      				<div class="col-sm-2">          
+						<select class="form-control" id="sel1">
+    						<option>МтМ-21</option>
+    						<option>МтМ-22</option>
+  						</select>
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2">Додаткові нотатки</label>
+      				<div class="col-sm-2">          
+  						<textarea class="form-control" rows="5" id="comment"></textarea>
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="control-label col-sm-2"></label>
+      				<div class="col-sm-4">          
+        				<div class="form-actions">
+    						<button type="submit" class="btn btn-primary">Зберегти</button>
+    						<button type="button" class="btn">Скасувати</button>
+    					</div>
+      				</div>
+    			</div>
+  			</form>
+		</div>
+	</body>
